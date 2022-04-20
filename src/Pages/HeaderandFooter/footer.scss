@@ -1,0 +1,62 @@
+$size: 20;
+
+.appbar {
+  #appbar {
+    background-color: #00000055;
+    // position: relative !important ;
+    // position:fixed;
+    padding:0 !important;    
+  }
+}
+
+.footer {
+  padding: 50px 50px 0px;
+  background-color: #030a16;
+  .socialLinks {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    ul li {
+      display: inline-block;
+      margin-left: 10px;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+.widget {
+  text-align: center;
+  ul li {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    margin-bottom: 13px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    a {
+      color: white;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  h5 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-size: $size + px;
+    line-height: 32px;
+  }
+}
+
+.copyRightArea {
+  margin-top: 15px;
+  padding: $size + px 0px;
+  p {
+    color: rgb(255, 255, 255);
+  }
+}

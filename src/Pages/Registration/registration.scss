@@ -1,0 +1,38 @@
+.registration {
+    // height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    color: black !important;
+}
+// .box{
+//     box-shadow: 0px 2px 1px -1px #000000 !important;
+// }
+.active {
+    .css-bhp9pd-MuiPaper-root-MuiCard-root {
+        &:first-child {
+            box-shadow: 0px 0px 2px #000000 !important;
+            margin: 2em 0;
+            padding: 1em;
+        }
+    }
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root, .css-1902mtl-MuiPaper-root-MuiCard-root{
+    box-shadow: none !important; 
+}
+.css-u4tvz2-MuiFormLabel-root {
+    color: black !important;
+}
+.active {
+    opacity: 1 !important;
+    transition: ease-in;
+}
+.disabled {
+    display: none !important;
+    transition: ease-out;
+}
+.registration {
+    button {
+        // background-color: black
+    }
+}
